@@ -1,0 +1,249 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 103);
+
+
+}
+
+.container {
+    background-color: white;
+    width: 653px;
+    min-height: 123px;
+    margin-top: 133px;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.search-box {
+    /* border-radius: 10px; */
+    margin-top: 2px;
+    width: 615px;
+    margin-left: 12px;
+    /* background-color: red; */
+    padding: 20px 0px 0px 20px;
+    min-height: 55px;
+}
+
+#input-box {
+    width: 502px;
+    height: 53px;
+    margin-top: -33px;
+    border-radius: 20px;
+    border: 1px solid red;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    width: 103px;
+    background-color: blueviolet;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.btn:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.show-result {
+    padding-left: 44px;
+    display: none;
+    /* background-color: red; */
+    height: 533px;
+}
+
+.show-result span {
+    color: red;
+}
+
+.show-result img {
+    width: 133px;
+    margin-top: 25px;
+    height: 133px;
+}
+
+#showed {
+    background-color: greenyellow;
+    height: 333px;
+    width: 643px;
+}
+
+
+
+/* .............footer...... */
+
+
+.my-detail {
+    color: black;
+    padding-top: 22px;
+    margin-top: 33;
+    margin-top: 32px;
+    background-color: white;
+    width: 303px;
+    margin-left: 153px;
+    border-radius: 10px;
+    height: 152px;
+    text-align: center;
+}
+
+.my-detail a {
+    color: black;
+
+}
+
+
+.link-box{
+    display: flex;
+    padding:10px 2px ;
+border-radius: 10px;
+    /* background-color: red; */
+    padding-left: 33px;
+}
+.link-box img{
+    width: 33px ;
+    margin-left: 33px;
+transition: all ease 0.4s;
+    height: 33px;
+}
+
+.link-box img:hover{
+    width: 33px ;
+    border-radius: 50%;
+   
+    cursor: pointer;
+    border: 2px solid red;
+    scale: 1.2;
+background-color: blueviolet;
+   height: 33px;
+}
+
+
+.country-heading{
+font-size: 25px;
+text-align: center;
+margin-top: -10px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .wrapped {
+        /* background-color: red; */
+        margin-right: 52px;
+    }
+}
+
+@media screen and (max-width:715px) {
+    .wrapped {
+        margin-right: 2px;
+        /* background-color: greenyellow; */
+    
+    }
+
+    .container {
+        /* background-color: greenyellow; */
+        width: 533px;
+padding-top: 22px;
+
+    }
+
+    #input-box{
+        width: 333px;
+
+    }
+.my-detail{
+        /* background-color: greenyellow; */
+margin-left:93px ;
+padding-top: 22px;
+margin-top: 33px;
+}
+
+}
+
+@media screen and (max-width:587px) {
+    .wrapped {
+        margin-right: -135px;
+        /* background-color: red; */
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:457px) {
+    .wrapped {
+        margin-right: -195px;
+        /* background-color: red; */
+    }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+ 
+    .wrapped {
+        margin-right: -22px;
+ overflow: hidden;   
+ margin-top: 20px;   
+        /* background-color: red; */
+ display: flex;
+ flex-direction: column;
+    }
+    #input-box{
+    width:150px;
+font-size: 15px;
+}
+
+
+
+.container {
+    background-color: white;
+    /* background-color: greenyellow; */
+    width:300px;
+    margin-left:25px;
+ 
+}
+
+.my-detail{
+     color: black;
+    
+    background-color: white;
+    width: 271px;
+/* background-color: red; */
+    border-radius: 10px;
+position:relative;
+    height: 152px;
+ top: 3px;
+ left: -60px;   
+    text-align: center;
+}
+
+
+
+.btn {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    width: 90px;
+    margin-left: 03px;
+    background-color: blueviolet;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+}
